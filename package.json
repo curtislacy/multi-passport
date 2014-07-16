@@ -1,7 +1,7 @@
 {
-  "name": "passport-local",
-  "version": "1.0.0",
-  "description": "Local username and password authentication strategy for Passport.",
+  "name": "multi-passport",
+  "version": "0.1.0",
+  "description": "Dynamic, multi-strategy authentication strategy for Passport.",
   "keywords": [
     "passport",
     "local",
@@ -11,17 +11,23 @@
     "username",
     "password"
   ],
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
-  },
+  "author": [
+    {
+      "name": "Jared Hanson",
+      "email": "jaredhanson@gmail.com",
+      "url": "http://www.jaredhanson.net/"
+    },
+    {
+      "name": "Curtis Lacy",
+      "url": "http://about.me/curtis.lacy"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-local.git"
+    "url": "git@github.com:curtislacy/multi-passport.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-local/issues"
+    "url": "https://github.com/curtislacy/multi-passport/issues"
   },
   "licenses": [
     {
