@@ -1,24 +1,10 @@
-# passport-local
+# multi-passport
 
-[![Build](https://travis-ci.org/jaredhanson/passport-local.png)](https://travis-ci.org/jaredhanson/passport-local)
-[![Coverage](https://coveralls.io/repos/jaredhanson/passport-local/badge.png)](https://coveralls.io/r/jaredhanson/passport-local)
-[![Quality](https://codeclimate.com/github/jaredhanson/passport-local.png)](https://codeclimate.com/github/jaredhanson/passport-local)
-[![Dependencies](https://david-dm.org/jaredhanson/passport-local.png)](https://david-dm.org/jaredhanson/passport-local)
-[![Tips](http://img.shields.io/gittip/jaredhanson.png)](https://www.gittip.com/jaredhanson/)
-
-
-[Passport](http://passportjs.org/) strategy for authenticating with a username
-and password.
-
-This module lets you authenticate using a username and password in your Node.js
-applications.  By plugging into Passport, local authentication can be easily and
-unobtrusively integrated into any application or framework that supports
-[Connect](http://www.senchalabs.org/connect/)-style middleware, including
-[Express](http://expressjs.com/).
+[Passport](http://passportjs.org/) strategy which loads other strategies dynamically at runtime.
 
 ## Install
 
-    $ npm install passport-local
+    $ npm install multi-passport
 
 ## Usage
 
@@ -65,6 +51,7 @@ For complete, working examples, refer to the multiple [examples](https://github.
 ## Credits
 
   - [Jared Hanson](http://github.com/jaredhanson)
+  - [Curtis Lacy](https://github.com/curtislacy)
 
 ## License
 
