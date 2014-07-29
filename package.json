@@ -1,6 +1,6 @@
 {
   "name": "multi-passport",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dynamic, multi-strategy authentication strategy for Passport.",
   "keywords": [
     "passport",
