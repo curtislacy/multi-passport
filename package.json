@@ -37,7 +37,8 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-strategy": "1.x.x"
+    "passport-strategy": "1.x.x",
+    "lodash": "~2.4.1"
   },
   "devDependencies": {
     "mocha": "1.x.x",
